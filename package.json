@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -12,9 +12,12 @@
     "@headlessui/vue": "^1.7.23",
     "@tailwindcss/vite": "^4.0.7",
     "axios": "^1.7.9",
+    "heroicons": "^2.2.0",
     "tailwindcss": "^4.0.7",
     "uuid": "^11.1.0",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vue-qrcode-reader": "^5.7.1",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
